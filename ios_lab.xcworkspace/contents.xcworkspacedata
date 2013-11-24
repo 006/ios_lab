@@ -2,6 +2,97 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Icons"
+      name = "Icons">
+      <Group
+         location = "group:en.lproj"
+         name = "en.lproj">
+         <FileRef
+            location = "group:Storyboard.storyboard">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Icons-Info.plist">
+      </FileRef>
+      <FileRef
+         location = "group:Icons.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Icons_Prefix.pch">
+      </FileRef>
+      <Group
+         location = "group:Images"
+         name = "Images">
+         <FileRef
+            location = "group:Default-568h@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Default-Landscape.png">
+         </FileRef>
+         <FileRef
+            location = "group:Default-Landscape@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Default-Portrait.png">
+         </FileRef>
+         <FileRef
+            location = "group:Default-Portrait@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Default.png">
+         </FileRef>
+         <FileRef
+            location = "group:Default@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-72.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-Small-50.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-Small.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-Small@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:iTunesArtwork">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:main.m">
+      </FileRef>
+      <FileRef
+         location = "group:ReadMe.txt">
+      </FileRef>
+      <FileRef
+         location = "group:Settings.bundle">
+      </FileRef>
+      <Group
+         location = "group:Shared"
+         name = "Shared">
+         <FileRef
+            location = "group:AppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.m">
+         </FileRef>
+         <FileRef
+            location = "group:RootViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:RootViewController.m">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
       location = "group:Chp6To10 Jigsaw"
       name = "Chp6To10 Jigsaw">
       <Group
