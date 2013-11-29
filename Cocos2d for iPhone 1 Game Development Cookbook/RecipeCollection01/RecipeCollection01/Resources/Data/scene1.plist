@@ -1,0 +1,66 @@
+{
+	nodes = (
+		{
+			type = texturedPolygon;
+			file = "sand_texture.png";
+			position = {
+				x = 0;
+				y = 0;
+			};
+			vertices = (
+				{
+					x = 0;
+					y = 0;
+				},
+				{
+					x = 480;
+					y = 0;
+				},
+				{
+					x = 480;
+					y = 320;
+				},
+				{
+					x = 0;
+					y = 320;
+				},
+			);
+		},
+		{
+			type = spriteFile;
+			file = "cactus1_00.png";
+			position = {
+				x = 100;
+				y = 100;
+			};
+			scale = 1;
+		},
+		{
+			type = spriteFile;
+			file = "cactus2_00.png";
+			position = {
+				x = 246;
+				y = 262;
+			};
+			scale = 1;
+		},
+		{
+			type = spriteFile;
+			file = "cactus3_00.png";
+			position = {
+				x = 342;
+				y = 124;
+			};
+			scale = 1;
+		},
+		{
+			type = spriteFile;
+			file = "cactus4_00.png";
+			position = {
+				x = 100;
+				y = 200;
+			};
+			scale = 1;
+		},
+	);
+}

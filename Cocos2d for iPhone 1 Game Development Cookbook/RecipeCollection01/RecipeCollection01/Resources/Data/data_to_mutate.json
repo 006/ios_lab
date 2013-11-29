@@ -1,0 +1,4 @@
+{ "people":
+    [ { "name":"John Smith", "height":60, "weight":200 },
+	  { "name":"Patricia Johnson", "height":55, "weight":180 } ]
+}

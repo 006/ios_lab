@@ -1,0 +1,8 @@
+{
+	hiscores = (
+		{
+			name = Player1;
+			score = 0;
+		},
+	);
+}

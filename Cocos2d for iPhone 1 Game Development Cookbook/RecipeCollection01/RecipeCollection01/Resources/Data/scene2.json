@@ -1,0 +1,14 @@
+{ "nodes":
+    [ { "type":"spriteFile", "file":"tree.png", "position":{"x":250,"y":50}, "scale":0.9 },
+	  { "type":"spriteFile", "file":"tree_shadow.png", "position":{"x":195,"y":51}, "scale":0.9, "z":-100 },
+	  { "type":"spriteFile", "file":"tree.png", "position":{"x":380,"y":200}, "scale":0.9 },
+	  { "type":"spriteFile", "file":"tree_shadow.png", "position":{"x":325,"y":200}, "scale":0.9, "z":-100 },
+	  { "type":"spriteFile", "file":"tree.png", "position":{"x":100,"y":150}, "scale":0.9 },
+	  { "type":"spriteFile", "file":"tree_shadow.png", "position":{"x":45,"y":150}, "scale":0.9, "z":-100 },
+	  { "type":"spriteFile", "file":"cheshire_cat.png", "position":{"x":120,"y":70}, "scale":0.3 },
+	  { "type":"spriteFile", "file":"actor_shadow.png", "position":{"x":120,"y":65}, "scale":1.75, "z":-100 },
+      { "type":"texturedPolygon", "file":"grass_texture.png", "position":{"x":0,"y":0}, 
+          "vertices":[{"x":0,"y":0},{"x":480,"y":0},{"x":480,"y":320},{"x":0,"y":320}] },
+      { "type":"rectangle", "position":{"x":0,"y":0}, "size":{"x":480,"y":320}, "meta": [{"type":"boundary"}] }
+    ]
+}

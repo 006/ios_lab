@@ -1,0 +1,14 @@
+{ "nodes":
+    [ 
+		{ "type":"spriteFile", "file":"book1_huge.jpg", "scale":0.1 },
+		{ "type":"spriteFile", "file":"explosion1.png", "scale":0.2 },
+	    { "type":"spriteFile", "file":"book2_huge.jpg", "scale":0.1 },
+	    { "type":"spriteFile", "file":"book3_huge.jpg", "scale":0.1 },
+		{ "type":"spriteFile", "file":"solar_system_bg.png", "scale":0.2 },
+	    { "type":"spriteFile", "file":"book4_huge.jpg", "scale":0.1 },
+		{ "type":"spriteFile", "file":"fruit_bowl.png", "scale":0.2 },
+		{ "type":"spriteFile", "file":"bball_net.png", "scale":0.2 },
+		{ "type":"spriteFile", "file":"gunman.png", "scale":0.2 },
+	    { "type":"spriteFile", "file":"book5_huge.jpg", "scale":0.1 },
+    ]
+}
