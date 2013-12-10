@@ -2,6 +2,102 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Objective-C"
+      name = "Objective-C">
+      <Group
+         location = "group:Objective-C"
+         name = "Objective-C">
+         <FileRef
+            location = "group:AppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.m">
+         </FileRef>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:Main_iPad.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main_iPhone.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:DataViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:DataViewController.m">
+         </FileRef>
+         <Group
+            location = "group:en.lproj"
+            name = "en.lproj">
+            <FileRef
+               location = "group:InfoPlist.strings">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Images.xcassets"
+            name = "Images.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:LaunchImage.launchimage"
+               name = "LaunchImage.launchimage">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:ModelController.h">
+         </FileRef>
+         <FileRef
+            location = "group:ModelController.m">
+         </FileRef>
+         <FileRef
+            location = "group:Objective-C-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Objective-C-Prefix.pch">
+         </FileRef>
+         <FileRef
+            location = "group:RootViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:RootViewController.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Objective-C.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Objective-CTests"
+         name = "Objective-CTests">
+         <Group
+            location = "group:en.lproj"
+            name = "en.lproj">
+            <FileRef
+               location = "group:InfoPlist.strings">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Objective-CTests-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Objective_CTests.m">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
       location = "group:Cocos2d for iPhone 1 Game Development Cookbook/Ch8_Cocos3d"
       name = "Ch8_Cocos3d">
       <Group

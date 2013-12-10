@@ -4,15 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Ch8_Cocos3d.xcscheme</key>
+		<key>Objective-C.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>13</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>430D95231405932900FF8563</key>
+		<key>E233A72F1856FA93006A1AA4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E233A7591856FA93006A1AA4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
