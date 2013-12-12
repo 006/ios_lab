@@ -1,7 +1,8 @@
 #import "cocos2d.h"
 #import "Recipe.h"
 
-enum {
+enum
+{
 	TAG_FADE_TO_BLACK = 0,
 	TAG_FADE_TO_WHITE = 1,
 	TAG_FADE_SPRITE = 2,
@@ -32,7 +33,8 @@ enum {
 //Implementation
 @implementation Ch1_ColoringSprites
 
--(CCLayer*) runRecipe {
+-(CCLayer*) runRecipe
+{
 	[self initButtons];
 		
 	//The Fade Scene Sprite
@@ -96,24 +98,26 @@ enum {
 	return self;	
 }
 
--(void) initButtons {
+-(void) initButtons
+{
 	[CCMenuItemFont setFontSize:16];
 
 	//'Fade to Black' button
 	CCMenuItemFont* fadeToBlack = [CCMenuItemFont itemFromString:@"FADE TO BLACK" target:self selector:@selector(fadeToBlackCallback:)];
 	CCMenu *fadeToBlackMenu = [CCMenu menuWithItems:fadeToBlack, nil];
-    fadeToBlackMenu.position = ccp( 180 , 20 );
+    fadeToBlackMenu.position = ccp( 120 , 20 );
     [self addChild:fadeToBlackMenu z:4 tag:TAG_FADE_TO_BLACK];
 	
 	//'Fade to White' button
 	CCMenuItemFont* fadeToWhite = [CCMenuItemFont itemFromString:@"FADE TO WHITE" target:self selector:@selector(fadeToWhiteCallback:)];
 	CCMenu *fadeToWhiteMenu = [CCMenu menuWithItems:fadeToWhite, nil];
-    fadeToWhiteMenu.position = ccp( 300 , 20 );
+    fadeToWhiteMenu.position = ccp( 240 , 20 );
     [self addChild:fadeToWhiteMenu z:4 tag:TAG_FADE_TO_WHITE];	
 }
 
 /* Fade the scene to black */
--(void) fadeToBlackCallback:(id)sender {
+-(void) fadeToBlackCallback:(id)sender
+{
 	CCSprite *fadeSprite = [self getChildByTag:TAG_FADE_SPRITE];
 	[fadeSprite stopAllActions];
 	[fadeSprite setColor:ccc3(0,0,0)];
@@ -123,7 +127,8 @@ enum {
 }
 
 /* Fade the scene to white */
--(void) fadeToWhiteCallback:(id)sender {
+-(void) fadeToWhiteCallback:(id)sender
+{
 	CCSprite *fadeSprite = [self getChildByTag:TAG_FADE_SPRITE];
 	[fadeSprite stopAllActions];
 	[fadeSprite setColor:ccc3(255,255,255)];
@@ -133,7 +138,8 @@ enum {
 }
 
 /* Draw a colored sprite */
--(void) drawColoredSpriteAt:(CGPoint)position withRect:(CGRect)rect withColor:(ccColor3B)color withZ:(float)z {
+-(void) drawColoredSpriteAt:(CGPoint)position withRect:(CGRect)rect withColor:(ccColor3B)color withZ:(float)z
+{
 	CCSprite *sprite = [CCSprite spriteWithFile:@"blank.png"];
 	[sprite setPosition:position];
 	[sprite setTextureRect:rect];

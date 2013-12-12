@@ -1,6 +1,7 @@
 #import "cocos2d.h"
 
-@interface MainLayer : CCLayer {
+@interface MainLayer : CCLayer
+{
 	NSMutableDictionary *recipes;
 	int numRecipes;
 	int currentRecipe;

@@ -39,7 +39,8 @@
 #import "Ch3_SavingDataSQLite.h"
 #import "Ch3_SavingDataCoreData.h"
 
-static NSString *recipeNames[] = {
+static NSString *recipeNames[] =
+{
 	@"Ch1_DrawingSprites",
 	@"Ch1_ColoringSprites",
 	@"Ch1_AnimatingSprites",

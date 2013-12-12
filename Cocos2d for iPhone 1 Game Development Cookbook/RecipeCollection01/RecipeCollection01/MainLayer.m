@@ -18,19 +18,18 @@ enum {
 
 @implementation MainLayer
 
-+(id) scene{
++(id) scene
+{
 	CCScene *scene = [CCScene node];
-	
 	MainLayer *layer = [MainLayer node];
-	
 	[scene addChild:layer];
-
 	return scene;
 }
 
 -(id) init
 {
-	if( (self=[super init] )) {
+	if( (self=[super init] ))
+    {
 		//Initialization
 		currentRecipe = 0;
 		recipes = [[NSMutableDictionary alloc] init];		
@@ -48,21 +47,25 @@ enum {
 	return self;
 }
 
-- (void) dealloc {
+- (void) dealloc
+{
 	[recipes release];
 	[super dealloc];
 }
 
 
--(void) loadRecipes {
+-(void) loadRecipes
+{
 	numRecipes = sizeof(recipeNames)/4;
 	
-	for(int i=0; i<numRecipes; i+=1){
+	for(int i=0; i<numRecipes; i+=1)
+    {
 		[recipes setObject:[[NSClassFromString(recipeNames[i]) alloc] init] forKey:recipeNames[i]];
 	}
 }
 
--(void) addButtons {
+-(void) addButtons
+{
 	CGSize size = [[CCDirector sharedDirector] winSize];
 	
 	CCMenuItemFont* prev = [CCMenuItemFont itemFromString:@"Prev" target:self selector:@selector(prevCallback:)];

@@ -1,7 +1,8 @@
 #import "cocos2d.h"
 #import "Recipe.h"
 
-enum {
+enum
+{
 	TAG_ALICE_SPRITE = 0,
 	TAG_CAT_SPRITE = 1,
 	TAG_TREE_SPRITE_1 = 2,
@@ -19,7 +20,6 @@ enum {
 
 -(CCLayer*) runRecipe;
 -(void) drawColoredSpriteAt:(CGPoint)position withRect:(CGRect)rect withColor:(ccColor3B)color withZ:(float)z;
-
 @end
 
 
@@ -27,7 +27,8 @@ enum {
 //Implementation
 @implementation Ch1_DrawingSprites
 
--(CCLayer*) runRecipe {
+-(CCLayer*) runRecipe
+{
 	/*** Draw a sprite using CCSprite ***/
 	CCSprite *tree1 = [CCSprite spriteWithFile:@"tree.png"];
 	[tree1 setPosition:ccp(20,20)];
@@ -82,7 +83,7 @@ enum {
 	alice.anchorPoint = ccp(0.5f,0);
 	[self addChild:alice z:2 tag:TAG_ALICE_SPRITE];
 	
-	//Make Alice grow and shrink.
+	//Make Alice grow and shrink. @_@
 	[alice runAction: [CCRepeatForever actionWithAction:
 		[CCSequence actions:[CCScaleTo actionWithDuration:4.0f scale:0.7f], [CCScaleTo actionWithDuration:4.0f scale:0.1f], nil] ] ];	
 
@@ -91,7 +92,8 @@ enum {
 	//Clouds
 	CCSpriteBatchNode *cloudBatch = [CCSpriteBatchNode batchNodeWithFile:@"cloud_01.png" capacity:10];
 	[self addChild:cloudBatch z:1 tag:TAG_CLOUD_BATCH];
-	for(int x=0; x<10; x++){
+	for(int x=0; x<10; x++)
+    {
 		CCSprite *s = [CCSprite spriteWithBatchNode:cloudBatch rect:CGRectMake(0,0,64,64)];
 		[s setOpacity:100];
 		[cloudBatch addChild:s];
@@ -101,7 +103,8 @@ enum {
 	//Middleground Grass
 	CCSpriteBatchNode *grassBatch1 = [CCSpriteBatchNode batchNodeWithFile:@"grass_01.png" capacity:30];
 	[self addChild:grassBatch1 z:1 tag:TAG_GRASS_BATCH_1];
-	for(int x=0; x<30; x++){
+	for(int x=0; x<30; x++)
+    {
 		CCSprite *s = [CCSprite spriteWithBatchNode:grassBatch1 rect:CGRectMake(0,0,64,64)];
 		[s setOpacity:255];
 		[grassBatch1 addChild:s];
@@ -111,7 +114,8 @@ enum {
 	//Foreground Grass
 	CCSpriteBatchNode *grassBatch2 = [CCSpriteBatchNode batchNodeWithFile:@"grass_01.png" capacity:30];
 	[self addChild:grassBatch2 z:3 tag:TAG_GRASS_BATCH_2];
-	for(int x=0; x<30; x++){
+	for(int x=0; x<30; x++)
+    {
 		CCSprite *s = [CCSprite spriteWithBatchNode:grassBatch2 rect:CGRectMake(0,0,64,64)];
 		[s setOpacity:255];
 		[grassBatch2 addChild:s];
