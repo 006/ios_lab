@@ -2,6 +2,506 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:AVPlayerDemo"
+      name = "AVPlayerDemo">
+      <FileRef
+         location = "group:AVPlayerDemo-Info.plist">
+      </FileRef>
+      <FileRef
+         location = "group:AVPlayerDemo.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:AVPlayerDemo_Prefix.pch">
+      </FileRef>
+      <Group
+         location = "group:Classes"
+         name = "Classes">
+         <Group
+            location = "group:AssetBrowser"
+            name = "AssetBrowser">
+            <FileRef
+               location = "group:AssetBrowserController.h">
+            </FileRef>
+            <FileRef
+               location = "group:AssetBrowserController.m">
+            </FileRef>
+            <FileRef
+               location = "group:AssetBrowserItem.h">
+            </FileRef>
+            <FileRef
+               location = "group:AssetBrowserItem.m">
+            </FileRef>
+            <FileRef
+               location = "group:AssetBrowserSource.h">
+            </FileRef>
+            <FileRef
+               location = "group:AssetBrowserSource.m">
+            </FileRef>
+            <FileRef
+               location = "group:DirectoryWatcher.h">
+            </FileRef>
+            <FileRef
+               location = "group:DirectoryWatcher.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AssetTabBarController.h">
+         </FileRef>
+         <FileRef
+            location = "group:AssetTabBarController.m">
+         </FileRef>
+         <FileRef
+            location = "group:AVPlayerDemoAppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:AVPlayerDemoAppDelegate.m">
+         </FileRef>
+         <FileRef
+            location = "group:AVPlayerDemoMetadataViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:AVPlayerDemoMetadataViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:AVPlayerDemoPlaybackView.h">
+         </FileRef>
+         <FileRef
+            location = "group:AVPlayerDemoPlaybackView.m">
+         </FileRef>
+         <FileRef
+            location = "group:AVPlayerDemoPlaybackViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:AVPlayerDemoPlaybackViewController.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Default-568h@2x.png">
+      </FileRef>
+      <Group
+         location = "group:English.lproj"
+         name = "English.lproj">
+         <FileRef
+            location = "group:AVPlayerDemoMetadataView-iPad.xib">
+         </FileRef>
+         <FileRef
+            location = "group:AVPlayerDemoMetadataView.xib">
+         </FileRef>
+         <FileRef
+            location = "group:AVPlayerDemoPlaybackView-iPad.xib">
+         </FileRef>
+         <FileRef
+            location = "group:AVPlayerDemoPlaybackView.xib">
+         </FileRef>
+         <FileRef
+            location = "group:AVPlayerDemoWindow-iPad.xib">
+         </FileRef>
+         <FileRef
+            location = "group:AVPlayerDemoWindow.xib">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:images"
+         name = "images">
+         <FileRef
+            location = "group:Browser-AudioOnly.png">
+         </FileRef>
+         <FileRef
+            location = "group:Browser-AudioOnly@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Browser-ErrorLoading.png">
+         </FileRef>
+         <FileRef
+            location = "group:Browser-ErrorLoading@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Browser-Placeholder.png">
+         </FileRef>
+         <FileRef
+            location = "group:Browser-Placeholder@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-72.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-Small-50.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-Small.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-Small@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:iTunesArtwork">
+         </FileRef>
+         <FileRef
+            location = "group:Placeholder.png">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:main.m">
+      </FileRef>
+      <FileRef
+         location = "group:ReadMe.txt">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:PhotoPicker"
+      name = "PhotoPicker">
+      <Group
+         location = "group:PhotoPicker"
+         name = "PhotoPicker">
+         <FileRef
+            location = "group:APLAppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:APLAppDelegate.m">
+         </FileRef>
+         <FileRef
+            location = "group:APLViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:APLViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:Default-568h@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Default.png">
+         </FileRef>
+         <FileRef
+            location = "group:Default@2x.png">
+         </FileRef>
+         <Group
+            location = "group:en.lproj"
+            name = "en.lproj">
+            <FileRef
+               location = "group:InfoPlist.strings">
+            </FileRef>
+            <FileRef
+               location = "group:MainStoryboard.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:OverlayView.xib">
+         </FileRef>
+         <FileRef
+            location = "group:PhotoPicker-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:PhotoPicker-Prefix.pch">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:PhotoPicker.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:ReadMe.txt">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:AVBasicVideoOutput"
+      name = "AVBasicVideoOutput">
+      <Group
+         location = "group:AVBasicVideoOutput"
+         name = "AVBasicVideoOutput">
+         <FileRef
+            location = "group:APLAppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:APLAppDelegate.m">
+         </FileRef>
+         <FileRef
+            location = "group:APLEAGLView.h">
+         </FileRef>
+         <FileRef
+            location = "group:APLEAGLView.m">
+         </FileRef>
+         <FileRef
+            location = "group:APLViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:APLViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:AVBasicVideoOutput-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:AVBasicVideoOutput-Prefix.pch">
+         </FileRef>
+         <FileRef
+            location = "group:Default-568h@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Default.png">
+         </FileRef>
+         <FileRef
+            location = "group:Default@2x.png">
+         </FileRef>
+         <Group
+            location = "group:en.lproj"
+            name = "en.lproj">
+            <FileRef
+               location = "group:InfoPlist.strings">
+            </FileRef>
+            <FileRef
+               location = "group:MainStoryboard_iPad.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:MainStoryboard_iPhone.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <Group
+            location = "group:Shaders"
+            name = "Shaders">
+            <FileRef
+               location = "group:Shader.fsh">
+            </FileRef>
+            <FileRef
+               location = "group:Shader.vsh">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:AVBasicVideoOutput.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:ReadMe.txt">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:AVMovieExporter"
+      name = "AVMovieExporter">
+      <Group
+         location = "group:AVMovieExporter"
+         name = "AVMovieExporter">
+         <FileRef
+            location = "group:AssetItem.h">
+         </FileRef>
+         <FileRef
+            location = "group:AssetItem.m">
+         </FileRef>
+         <FileRef
+            location = "group:AssetViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:AssetViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:AVMovieExporter-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:AVMovieExporter-Prefix.pch">
+         </FileRef>
+         <FileRef
+            location = "group:AVMovieExporterAppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:AVMovieExporterAppDelegate.m">
+         </FileRef>
+         <FileRef
+            location = "group:Browser-ErrorLoading.png">
+         </FileRef>
+         <FileRef
+            location = "group:CommonMetadata.h">
+         </FileRef>
+         <FileRef
+            location = "group:CommonMetadata.m">
+         </FileRef>
+         <Group
+            location = "group:en.lproj"
+            name = "en.lproj">
+            <FileRef
+               location = "group:InfoPlist.strings">
+            </FileRef>
+            <FileRef
+               location = "group:Localizable.strings">
+            </FileRef>
+            <FileRef
+               location = "group:MainWindow.xib">
+            </FileRef>
+            <FileRef
+               location = "group:RootViewController.xib">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ExportProgressViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:ExportProgressViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:ExportView.xib">
+         </FileRef>
+         <FileRef
+            location = "group:FileTypeViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:FileTypeViewController.m">
+         </FileRef>
+         <Group
+            location = "group:iPad"
+            name = "iPad">
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:MainWindow-iPad.xib">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:MetadataViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:MetadataViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:NewMetadataView.xib">
+         </FileRef>
+         <FileRef
+            location = "group:NewMetadataViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:NewMetadataViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:PresetViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:PresetViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:RootViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:RootViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:Sydney-iPhone.m4v">
+         </FileRef>
+         <FileRef
+            location = "group:TrackViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:TrackViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:VideoLibrary.h">
+         </FileRef>
+         <FileRef
+            location = "group:VideoLibrary.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:AVMovieExporter.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:ReadMe.txt">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:tsst-jigsaw"
+      name = "tsst-jigsaw">
+      <Group
+         location = "group:tsst-jigsaw"
+         name = "tsst-jigsaw">
+         <FileRef
+            location = "group:AppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.m">
+         </FileRef>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:Main_iPad.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main_iPhone.storyboard">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:en.lproj"
+            name = "en.lproj">
+            <FileRef
+               location = "group:InfoPlist.strings">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Images.xcassets"
+            name = "Images.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:LaunchImage.launchimage"
+               name = "LaunchImage.launchimage">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:tsst-jigsaw-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:tsst-jigsaw-Prefix.pch">
+         </FileRef>
+         <FileRef
+            location = "group:ViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:ViewController.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:tsst-jigsaw.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:tsst-jigsawTests"
+         name = "tsst-jigsawTests">
+         <Group
+            location = "group:en.lproj"
+            name = "en.lproj">
+            <FileRef
+               location = "group:InfoPlist.strings">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:tsst-jigsawTests-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:tsst_jigsawTests.m">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
       location = "group:Objective-C"
       name = "Objective-C">
       <Group
