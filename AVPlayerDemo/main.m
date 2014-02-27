@@ -49,9 +49,10 @@ Copyright (C) 2010-2013 Apple Inc. All Rights Reserved.
 #import <UIKit/UIKit.h>
 #import "AVPlayerDemoAppDelegate.h"
 
-int main(int argc, char *argv[]) {
-
-    @autoreleasepool {
+int main(int argc, char *argv[])
+{
+    @autoreleasepool
+    {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AVPlayerDemoAppDelegate class]));
     }
 

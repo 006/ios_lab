@@ -230,6 +230,4 @@ typedef void (^AlertViewCompletionHandler)(void);
         navigationController.navigationBarHidden = NO;        
     }
 }
-
-
 @end

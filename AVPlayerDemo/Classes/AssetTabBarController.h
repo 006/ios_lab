@@ -53,8 +53,8 @@
 
 static NSString* const AVPlayerDemoPickerViewControllerSourceTypeUserDefaultsKey = @"AVPlayerDemoPickerViewControllerSourceType";
 
-@interface AssetTabBarController : UITabBarController <UITabBarDelegate> {
+@interface AssetTabBarController : UITabBarController <UITabBarDelegate>
+{
     
 }
-
 @end
