@@ -201,6 +201,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Tsst Corp.";
 				TargetAttributes = {
+					E298E80E19260FE700E215FB = {
+						DevelopmentTeam = 2427R279PA;
+					};
 					E298E82E19260FF300E215FB = {
 						TestTargetID = E298E80E19260FE700E215FB;
 					};
@@ -370,10 +373,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quiz OnMe/Quiz OnMe-Prefix.pch";
 				INFOPLIST_FILE = "Quiz OnMe/Quiz OnMe-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -383,10 +389,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quiz OnMe/Quiz OnMe-Prefix.pch";
 				INFOPLIST_FILE = "Quiz OnMe/Quiz OnMe-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -450,6 +459,7 @@
 				E298E84319260FF400E215FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E298E84419260FF400E215FB /* Build configuration list for PBXNativeTarget "Quiz OnMeTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +468,7 @@
 				E298E84619260FF400E215FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
