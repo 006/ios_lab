@@ -1699,7 +1699,7 @@
 		436F544813552C0300F6433F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Nathan Burba";
 			};
 			buildConfigurationList = 436F544B13552C0300F6433F /* Build configuration list for PBXProject "RecipeCollection02" */;
@@ -2048,7 +2048,6 @@
 		436F562C13552C0700F6433F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_ENTITLEMENTS = RecipeCollection02/Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Nathan Burba (R35F83Z3DJ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -2063,6 +2062,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "A01EDE9A-6B52-4299-9F8E-7F86F514BE8B";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -2072,7 +2072,6 @@
 		436F562D13552C0700F6433F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_ENTITLEMENTS = RecipeCollection02/Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Nathan Burba";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nathan Burba";

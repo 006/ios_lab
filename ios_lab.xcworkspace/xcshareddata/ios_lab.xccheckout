@@ -10,29 +10,29 @@
 	<string>ios_lab</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>CDB1B58F-9BAF-44FD-958C-5C687D1C2DA0</key>
+		<key>CA20C3753BF003FB46E0FB47538A029D7011F209</key>
 		<string>https://github.com/006/ios_lab.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ios_lab.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>CDB1B58F-9BAF-44FD-958C-5C687D1C2DA0</key>
+		<key>CA20C3753BF003FB46E0FB47538A029D7011F209</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/006/ios_lab.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>CDB1B58F-9BAF-44FD-958C-5C687D1C2DA0</string>
+	<string>CA20C3753BF003FB46E0FB47538A029D7011F209</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>CDB1B58F-9BAF-44FD-958C-5C687D1C2DA0</string>
+			<string>CA20C3753BF003FB46E0FB47538A029D7011F209</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ios_lab</string>
 		</dict>
