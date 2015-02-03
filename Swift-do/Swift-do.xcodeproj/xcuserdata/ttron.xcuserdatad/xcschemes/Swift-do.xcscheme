@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-               BuildableName = "Jigsaw.app"
-               BlueprintName = "Jigsaw"
-               ReferencedContainer = "container:Jigsaw.xcodeproj">
+               BlueprintIdentifier = "E24C91F01A80BAFF00A28EAB"
+               BuildableName = "Swift-do.app"
+               BlueprintName = "Swift-do"
+               ReferencedContainer = "container:Swift-do.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E24C92071A80BAFF00A28EAB"
+               BuildableName = "Swift-doTests.xctest"
+               BlueprintName = "Swift-doTests"
+               ReferencedContainer = "container:Swift-do.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +42,24 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E24C92071A80BAFF00A28EAB"
+               BuildableName = "Swift-doTests.xctest"
+               BlueprintName = "Swift-doTests"
+               ReferencedContainer = "container:Swift-do.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "Jigsaw.app"
-            BlueprintName = "Jigsaw"
-            ReferencedContainer = "container:Jigsaw.xcodeproj">
+            BlueprintIdentifier = "E24C91F01A80BAFF00A28EAB"
+            BuildableName = "Swift-do.app"
+            BlueprintName = "Swift-do"
+            ReferencedContainer = "container:Swift-do.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "Jigsaw.app"
-            BlueprintName = "Jigsaw"
-            ReferencedContainer = "container:Jigsaw.xcodeproj">
+            BlueprintIdentifier = "E24C91F01A80BAFF00A28EAB"
+            BuildableName = "Swift-do.app"
+            BlueprintName = "Swift-do"
+            ReferencedContainer = "container:Swift-do.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "Jigsaw.app"
-            BlueprintName = "Jigsaw"
-            ReferencedContainer = "container:Jigsaw.xcodeproj">
+            BlueprintIdentifier = "E24C91F01A80BAFF00A28EAB"
+            BuildableName = "Swift-do.app"
+            BlueprintName = "Swift-do"
+            ReferencedContainer = "container:Swift-do.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

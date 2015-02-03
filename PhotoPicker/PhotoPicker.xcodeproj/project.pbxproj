@@ -141,6 +141,11 @@
 				CLASSPREFIX = APL;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Apple Inc.";
+				TargetAttributes = {
+					284EAA9C17467372002CEFCB = {
+						DevelopmentTeam = 2427R279PA;
+					};
+				};
 			};
 			buildConfigurationList = 284EAA9817467372002CEFCB /* Build configuration list for PBXProject "PhotoPicker" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -265,6 +270,7 @@
 		284EAAC117467372002CEFCB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoPicker/PhotoPicker-Prefix.pch";
 				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
@@ -274,6 +280,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				INFOPLIST_FILE = "PhotoPicker/PhotoPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
@@ -283,6 +290,7 @@
 		284EAAC217467372002CEFCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoPicker/PhotoPicker-Prefix.pch";
 				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
@@ -292,6 +300,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				INFOPLIST_FILE = "PhotoPicker/PhotoPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
