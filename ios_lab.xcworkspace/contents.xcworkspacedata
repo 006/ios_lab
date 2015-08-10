@@ -13886,7 +13886,4 @@
          </FileRef>
       </Group>
    </Group>
-   <FileRef
-      location = "group:Request.playground">
-   </FileRef>
 </Workspace>

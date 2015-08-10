@@ -2,12 +2,12 @@
 //  Swift_doTests.swift
 //  Swift-doTests
 //
-//  Created by 胡建 on 15/2/3.
-//  Copyright (c) 2015年 Tsst Corp. All rights reserved.
+//  Created by 胡建 on 15/8/10.
+//  Copyright © 2015年 Tsst Corp. All rights reserved.
 //
 
-import UIKit
 import XCTest
+@testable import Swift_do
 
 class Swift_doTests: XCTestCase {
     
@@ -23,12 +23,12 @@ class Swift_doTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock() {
+        self.measureBlock {
             // Put the code you want to measure the time of here.
         }
     }
